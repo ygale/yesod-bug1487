@@ -3,7 +3,12 @@ version: "0.0.0"
 
 dependencies:
 - base
-- yesod-core
+- template-haskell
+- directory
+- text
+- bytestring
+- containers
+- parsec
 
 # The library contains all of our application code. The executable
 # defined below is just a thin wrapper.

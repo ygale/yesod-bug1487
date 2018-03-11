@@ -3,7 +3,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 module Foundation where
 
-import Yesod.Core
+import I18N
 
 data App = App
 
