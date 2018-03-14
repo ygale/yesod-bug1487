@@ -3,23 +3,14 @@ version: "0.0.0"
 
 dependencies:
 - base
-- yesod-core
-- yesod
-- data-default
+- template-haskell
+- directory
+- text
+- bytestring
+- containers
+- parsec
 
 # The library contains all of our application code. The executable
 # defined below is just a thin wrapper.
 library:
   source-dirs: src
-
-# Runnable executable for our application
-executables:
-  yesod-bug1487:
-    main: Main.hs
-    source-dirs: app
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - yesod-bug1487
